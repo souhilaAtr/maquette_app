@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('/font/Poppins-Regular.ttf');
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: PoppinsRegular;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+header{
+    background-image: url("../img/app.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-position: end;
+}
+header .card{
+
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+   
+    width: 33%;
+    height: 35vh;
+    border-radius: 5%;
+    background-color: rgba(25, 29, 33, 0.653);
+color: rgba(255, 255, 255, 0.607);
+    text-align: center;
+
+}
+header .tour{
+    position: absolute;
+    top: 50%;
+    right:0 ;
+    font-size: 1.3em;
+    transform: translateY(-50%);
+    color: white;background-color: black;
+    padding: 10px 30px;
+}
+
+
+header .card h1{
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0.607);
+    padding: 30px 0 30px 0;
+    display: inline-block;
+    width: 90%;
+    border-bottom: 1px solid ;
+}
+header .card p{
+    font-size: 1.5em;
+    padding: 30px;
+    line-height: 1.5;
+}
+header .card button{
+    width: 90%;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.607);
+    font-size: 1.2em;
+    background-color: rgba(80, 224, 80, 0.424);
+    border-radius: 2.5%;
+    appearance: none;
+    border: none;
+   
+}
+
+.app{
+    display: flex;
+    padding: 60px 10px;
+}
+.app .buy h1{
+    font-size: 4em;  
+    font-weight: bold;  
+    padding-top:40px
+
+}
+.app .buy h2{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(33, 145, 6);
+    padding: 40px 10px;
+}
+.app .buy p span{
+    font-size: 1.5em;
+}
+.app .buy p{
+    line-height: 1.5em;
+}
+ .app .buy button{
+    appearance: none;
+    border: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 40px 0;
+ }
+ .app .buy .telechargement{
+    font-size: 1.2em;
+ }
+ .fa-android{
+    color: rgb(5, 156, 5);
+    font-size: 1.5em;
+ }
+.fa-windows{
+    color: rgb(31, 112, 184);
+    font-size: 1.5em;
+}
+.fa-apple{
+    font-size: 1.5em;
+}
+/* partie clarity */
+
+.clarity{
+    display: flex;
+    background-color: rgb(245, 240, 240);
+    padding: 50px 10px;
+}
+.clarity img{
+    display: inline-block;
+    border-radius: 4%;
+}
+.clarity .pixles{
+    padding: 40px 20px;
+}
+
+.clarity .pixles h1{
+    font-size: 4em;
+    font-weight: bold;
+    
+    
+}
+.clarity .pixles h2{
+    font-size: 3em;
+    color: rgb(214, 52, 43);
+    font-weight: bold;
+    padding: 30px 0;
+}
+.clarity .pixles p {
+    line-height: 1.5;
+}
+.clarity .pixles span{
+    font-size: 1.5em;
+}
+/* features************ */
+.features{
+    background-color: rgb(165, 165, 165);
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+
+}
+.features .icons{
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+.features .icons p{
+    width: 25%;
+    font-size: 1.5em;
+}
+.features .icons p i{
+    font-size: 4em;
+    display: block;
+}
+.features .icons p {
+    text-align: center;
+}
+
+.fa-bolt-lightning{
+    color: orange;
+}
+.fa-heart{
+    color: red;
+}
+.fa-camera{
+    color: yellow;
+}
+.fa-battery-full{
+    color: green;
+}
+.fa-gem{
+    color: white;
+}
+.fa-cloud{
+    color: blue;
+}
+.fa-earth-americas{
+    color: yellowgreen;
+}
+.fa-hard-drive{
+    color: blue;
+}
+.fa-user{
+    color: white;
+}
+
+.fa-shield-halved{
+    color: orange;
+}
+.fa-wifi{
+    color: rgb(71, 63, 63);
+}
+.fa-image{
+    color: pink;
+}
+/* *********************pricing */
+
+
+.pricing{
+    text-align: center;
+}
+.pricing .offre{
+    display: flex;
+    justify-content: space-around;
+}
+.pricing .offre .basic{
+    width: 45%;
+    border: solid;
+}
+.pricing .offre .basic .base{
+  
+    background-color: gray;
+    padding: 30px;
+}
+.pricing .offre .basic .base {
+
+    background-color: gray;
+    padding: 30px;
+}
+.pricing .offre .basic .base ~ p{
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.pricing .offre .basic .price {
+    padding: 30px;
+}
+.pricing .offre .basic .price ~ p {
+    padding: 30px;
+}
+.pricing .offre .premium .base{
+    background-color: red;
+}
